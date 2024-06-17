@@ -1,28 +1,58 @@
 /* MEttre a jour avec la nouvelle version de la table Sales Price avant 2027*/
-tableextension 50035 "Sales Price Extension" extends "Sales Price"
+tableextension 50034 "Sales Price Extension" extends "Sales Price"
 {
     fields
     {
-        // Ajout du champ "Promotion 2"
-        field(50101; "Promotion 2"; Boolean)
+        // Ajout du champ "Prix net"
+        field(50000; "Prix net"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
 
-        // Ajout du champ "Description Promotion"
-        field(50102; "Description Promotion"; Text[100])
+        // Ajout du champ "Promotion"
+        field(50001; "Promotion"; Boolean)
         {
             DataClassification = ToBeClassified;
         }
 
-        // Ajout du champ "Date de Validité"
-        field(50103; "Date de Validité"; Date)
+        // Ajout du champ "Remise prix net"
+        field(50002; "Remise prix net"; Boolean)
         {
             DataClassification = ToBeClassified;
         }
 
-        // Ajout du champ "Remise Supplémentaire"
-        field(50104; "Remise Supplémentaire"; Decimal)
+        // Ajout du champ "Dernier PRT (dev soc)"
+        field(50003; "Dernier PRT (dev soc)"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+
+        // Ajout du champ "Dernier PRT"
+        field(50004; "Dernier PRT"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+
+        // Ajout du champ "Coef. Multi"
+        field(50005; "Coef. Multi"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+
+        // Ajout du champ "Prix Unitaire Simulé"
+        field(50006; "Prix Unitaire Simulé"; Decimal)
+        {
+            DataClassification = ToBeClassified;
+        }
+
+        // Ajout du champ "Export Web"
+        field(50007; "Export Web"; Boolean)
+        {
+            DataClassification = ToBeClassified;
+        }
+
+        // Ajout du champ "Prix Net simulé"
+        field(50008; "Prix Net simulé"; Decimal)
         {
             DataClassification = ToBeClassified;
         }
