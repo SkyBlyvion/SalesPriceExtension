@@ -1,0 +1,32 @@
+{
+  "id": "4f80dbe9-c128-4ca3-94ef-b64ffa70fed9",
+  "name": "TableExtensionSalesPrice7002",
+  "publisher": "Lopez Nicolas - REVIMPORT",
+  "version": "1.0.0.1",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "24.1.0.0",
+  "idRanges": [
+    {
+      "from": 50034,
+      "to": 50038
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
